@@ -1,0 +1,52 @@
+.hero {
+    background-color: rgb(97, 70, 217);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 1.5rem;
+}
+
+p{
+    padding: 0% 10% 0% 10%;
+}
+
+h1{
+    padding-top: 15%;
+}
+
+img{
+    border-radius: 7%;
+}
+
+.sec2{
+    background-color: rgb(40, 31, 84);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 1.5rem;
+}
+
+.light{
+    color:  rgb(140, 135, 135);
+}
+
+.tt{
+    padding-top: 5%;
+}
+
+.video{
+    border-radius: 10%;
+    padding-top: 6%;
+}
+
+.sec3{
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 125px 0;
+    font-size: 1.5rem;
+}
+
+.ttsec3{
+    color: rgb(59, 59, 211);
+}
