@@ -1,21 +1,53 @@
+/* From Uiverse.io by kennyotsu-monochromia */ 
 .hero {
-    background-color: rgb(97, 70, 217);
-    color: white;
-    text-align: center;
-    padding: 50px 0;
-    font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  background-size: 10px 10px;
+  background-color: #e6e6e7;
+  padding: 5% 0% 5% 0%;
 }
 
 p{
-    padding: 0% 10% 0% 10%;
+    padding: 0% 10% 0% 0%;
 }
 
-h1{
-    padding-top: 15%;
+h1 {
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
 }
 
-img{
-    border-radius: 7%;
+/* .heroblock{
+  padding: 0% 10% 0% 10%;
+} */
+
+
+.highlight1 {
+  padding-top: 10%;
+  display: block;
+  font-size: 5rem;
+  color: var(--text-color);
+  font-weight: 800;
+}
+.highlight {
+  display: block;
+  font-size: 3.5rem;
+  color: var(--text-color);
+  font-weight: 800;
+}
+
+.highlight2 {
+  display: block;
+  font-size: 3rem;
+  color: var(--text-color);
+  font-weight: 800;
+}
+
+.hero-text {
+  font-size: 1.1rem;
+  color: var(--gray);
+  margin-bottom: 2rem;
+  max-width: 500px;
 }
 
 .sec2{
@@ -51,9 +83,7 @@ img{
     color: rgb(59, 59, 211);
 }
 
-.herotext{
-    font-size: 1.5rem;
-}
+
 
 /* From Uiverse.io by gharsh11032000 */ 
 .card {
@@ -118,3 +148,13 @@ img{
     line-height: 1.4;
   }
   
+  /* From Uiverse.io by kennyotsu-monochromia */ 
+.containergrid {
+  width: 100%;
+  height: 100%;
+  --color: #E1E1E1;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
